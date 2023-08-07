@@ -1,0 +1,16 @@
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 429px;
+    height: 140px;
+    background: #23272A;
+}
+
+@media screen and (min-width: 479px) {
+    .rodape {
+        width: 1480px;
+        height: 134px;
+    }    
+}

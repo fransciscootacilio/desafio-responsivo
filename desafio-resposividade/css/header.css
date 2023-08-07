@@ -1,0 +1,109 @@
+.presentation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 505px;
+    background-image: url(../assets/Header\ Background.png);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 428px;
+    height: 366px;
+    padding: 0px 24px 0px 24px;
+
+
+}
+
+.content h1 {
+    width: 278px;
+    height: 64px;
+
+    font-family: Luckiest Guy;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.content p {
+    width: 381px;
+    height: 132px;
+
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.content button {
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    border: none;
+    margin: .5rem;
+
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#baixar {
+    background-color: #FFFFFF;
+    color: #23272A;
+}
+
+#abra-navegador {
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 479px) {
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        width: 1480px;
+        height: 459px;
+
+        background-image: url(../assets/telas-maiores/Header\ Background.png);
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 757px;
+        height: 270px;
+        gap: 24px;
+    }
+    .content h1{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        width: 313px;
+        height: 112px;
+
+        font-size: 3.2rem;
+    }
+    .content p {
+        width: 757px;
+        height: 66px;
+        text-align: center;
+    }
+    .content #botao {
+        display: flex;
+        flex-direction: row;
+        width: 502px;
+        height: 44px;
+    }
+
+    .content button {
+        width: auto;
+        height: 44px;
+    }
+}
